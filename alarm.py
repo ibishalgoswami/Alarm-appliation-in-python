@@ -1,9 +1,5 @@
 import time
 from win10toast import ToastNotifier
-
-#class tmerror(Exception):
-    #print("Provide the time in the correct format")
-
 def rem():
     inptime = input('Enter the input time in the given format hh-mm-ss')
     res = inptime.split("-")
